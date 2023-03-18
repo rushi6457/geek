@@ -1,0 +1,19 @@
+.sidebar{
+    border: 1px solid;
+    width: 20vw;
+    height: auto;
+    /* position: fixed; */
+    text-align: justify;
+  
+}
+.indiBox{
+    padding-left: 5%;
+}
+.indiBox p {
+    font-size: 1.3rem;
+}
+@media screen and (max-width:1040px) and (min-width:350px) {
+    .sidebar{
+        display: none;
+    }
+}

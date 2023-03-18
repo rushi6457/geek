@@ -1,0 +1,50 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    gap: 10px;
+}
+.search input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 5vh;
+    width: auto;
+}
+.search button{
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: black;
+    
+}
+.sidebar{
+    border: 1px solid;
+    width: 20vw;
+    height: auto;
+    /* position: fixed; */
+    text-align: justify;
+  
+}
+.indiBox{
+    padding-left: 5%;
+}
+.indiBox p {
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width:1040px) {
+    .search{
+        margin-top: 20%;
+        position: sticky;
+        width: 100%;
+    }
+     .sidebar{
+        display: none;
+    }
+    .show{
+        display: initial;
+    }
+}

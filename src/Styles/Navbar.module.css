@@ -1,0 +1,41 @@
+.navbar{
+    border: 1px solid;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    background-color: gray;
+    color: white;
+
+}
+.navbar p{
+    font-size: 1.5rem;
+}
+.navbar:nth-child(1){
+    padding-left: 1%;
+}
+
+.navbarRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    gap: 2rem;
+
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart>h5{
+    margin-top: 0px;
+    font-size: medium;
+}
+.header{
+    position: fixed;
+    width: 100%;
+}
